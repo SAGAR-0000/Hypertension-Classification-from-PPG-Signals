@@ -1,0 +1,29 @@
+# Large data files (>100MB GitHub limit)
+data/*.mat
+*.mat
+
+# Processed data (can be regenerated)
+processed_data/*.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

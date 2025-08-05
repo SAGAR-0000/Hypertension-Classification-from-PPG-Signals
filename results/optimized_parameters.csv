@@ -1,0 +1,2 @@
+clf__colsample_bytree,clf__gamma,clf__learning_rate,clf__max_depth,clf__min_child_weight,clf__n_estimators,clf__reg_alpha,clf__reg_lambda,clf__subsample
+0.7475939342927472,0.36049394341692653,0.061281950007460236,10,1,293,0.4277302920055036,1.5554867890700355,0.8422521487261975
