@@ -1,0 +1,21 @@
+Hypertension Classification from PPG Signals Using Machine Learning
+
+Objective:
+Classify subjects as normotensive, prehypertensive, or hypertensive using PPG-based features.
+
+Methodology:
+    Acquire labeled BP datasets (e.g., MIMIC, UCI PPG-BP).  
+    Preprocessing:
+    Denoising and normalization
+
+Feature extraction:
+    Systolic peak height, notch-to-peak time
+    HR, HRV features from pulse
+    Statistical descriptors: mean, SD, kurtosis
+
+Train classifiers:
+    SVM, Logistic Regression, Random Forest, XGBoost
+    Evaluate using: Confusion matrix, Accuracy, Precision, F1-score
+
+Outcome:
+An interpretable hypertension screening system from PPG signals.
