@@ -1,6 +1,6 @@
 # Hypertension Classification from PPG Signals
 
-## 🎯 Final Results: 87.88% Accuracy
+## Final Results: 87.88% Accuracy
 
 Advanced machine learning system for hypertension screening using Photoplethysmography (PPG) signals with **subject-independent validation**.
 
@@ -12,7 +12,7 @@ Advanced machine learning system for hypertension screening using Photoplethysmo
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 project/
@@ -22,19 +22,19 @@ project/
 │   ├── hypertension_classification.ipynb   # Baseline models (67%)
 │   └── advanced_classification.ipynb       # Final models (87.88%) ⭐
 │
-├── 📊 Data
+├── Data
 │   ├── data/                              # Raw .mat files (not included)
 │   └── processed_data/
 │       ├── ppg_features.csv               # Baseline features
 │       └── ppg_features_advanced.csv      # 29 features, 25,201 samples
 │
-├── 📈 Results
+├── Results
 │   └── results/
 │       ├── binary_classification_results.csv
 │       ├── individual_models_comparison.csv
 │       └── selected_features.csv
 │
-└── 📚 Documentation
+└── Documentation
     ├── FINAL_RESULTS_SUMMARY.md           # Comprehensive results
     ├── COMPREHENSIVE_COMPARISON.md        # All approaches compared
     ├── project_report.md                  # Technical report
@@ -43,30 +43,8 @@ project/
 
 ---
 
-## 🚀 Quick Start
 
-### 1. Run the Complete Notebook
-```bash
-jupyter notebook advanced_classification.ipynb
-```
-
-This notebook includes:
-- Binary classification (87.88% accuracy)
-- 3-class individual models comparison
-- Feature selection + hyperparameter tuning
-- Comprehensive visualizations
-
-### 2. Expected Output
-```
-Binary Classification Results:
-✓ Accuracy: 87.88%
-✓ Specificity: 93.84%
-✓ Sensitivity: 62.69%
-```
-
----
-
-## 📊 Results Summary
+## Results Summary
 
 | Approach | Accuracy | Key Finding |
 |----------|----------|-------------|
@@ -78,7 +56,7 @@ Binary Classification Results:
 
 ---
 
-## 🔬 Technical Highlights
+## Technical Highlights
 
 ### Advanced Features (29 total)
 1. **APG Features** (Most Important!)
@@ -104,7 +82,7 @@ Binary Classification Results:
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 ### For Quick Overview
 - **FINAL_RESULTS_SUMMARY.md** - All results and comparisons
@@ -118,7 +96,7 @@ Binary Classification Results:
 
 ---
 
-## 🏥 Clinical Application
+## Clinical Application
 
 ### Use Case: Primary Screening Tool
 1. **Continuous PPG monitoring** detects suspicious cases
@@ -134,7 +112,7 @@ Binary Classification Results:
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 ```python
 numpy>=1.20
@@ -154,7 +132,7 @@ pip install numpy pandas scikit-learn xgboost imbalanced-learn matplotlib seabor
 
 ---
 
-## 🎓 Dataset
+## Dataset
 
 **Source**: Kaggle Blood Pressure Dataset (MIMIC-derived)  
 **Link**: https://www.kaggle.com/datasets/mkachuee/BloodPressureDataset
@@ -167,7 +145,7 @@ pip install numpy pandas scikit-learn xgboost imbalanced-learn matplotlib seabor
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
 To reach 90%+ accuracy:
 
@@ -188,7 +166,7 @@ To reach 90%+ accuracy:
 
 ---
 
-## 📝 Citation
+## Citation
 
 If using this project, please cite:
 ```
@@ -199,16 +177,3 @@ Dataset: Kaggle Blood Pressure Dataset (MIMIC-derived)
 ```
 
 ---
-
-## ✅ Project Status
-
-**Status**: ✅ Complete - Ready for Deployment  
-**Accuracy**: 87.88% (97.6% of 90% target)  
-**Validation**: Subject-independent (realistic)  
-**Recommendation**: Deploy binary XGBoost model for screening
-
----
-
-**Last Updated**: December 16, 2025  
-**Final Model**: Binary XGBoost with Advanced Features  
-**Best Performance**: 87.88% Accuracy, 93.84% Specificity
